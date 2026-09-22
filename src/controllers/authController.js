@@ -1,6 +1,6 @@
 const bcrypt = require('bcrypt');
 const jwt = require('jsonwebtoken');
-const pool = require('../config/db'); // Assuming this is your db.js path
+const pool = require('../config/db'); 
 
 // 1. REGISTER
 exports.register = async (req, res) => {
